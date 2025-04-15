@@ -36,6 +36,7 @@ mysql -u root -p
 CREATE DATABASE your_database_name CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 use your_database_name;
 source project_hubd_database.sql;
+source procedure.sql;
 exit
 
 
